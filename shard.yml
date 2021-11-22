@@ -1,0 +1,13 @@
+name: crystal-cityhash
+version: 0.1.0
+
+authors:
+  - syalon <empty@email.com>
+
+targets:
+  crystal-cityhash:
+    main: src/crystal-cityhash.cr
+
+crystal: 1.2.0
+
+license: MIT
