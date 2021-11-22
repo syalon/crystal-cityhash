@@ -2,12 +2,11 @@ name: crystal-cityhash
 version: 0.1.0
 
 authors:
-  - syalon <empty@email.com>
-
-targets:
-  crystal-cityhash:
-    main: src/crystal-cityhash.cr
+  - syalon
 
 crystal: 1.2.0
+
+scripts:
+  postinstall: chmod a+x build_cityhash.sh && ./build_cityhash.sh
 
 license: MIT
